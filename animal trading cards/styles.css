@@ -1,0 +1,33 @@
+.card {
+    margin: auto;
+    border: 1px solid grey;
+    background-color: lightsalmon;
+    box-shadow: 10px 10px 10px lightgray;
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    margin: 15px;
+}
+
+h2 {
+    float: left;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+#description {
+    padding: 8px;
+    border: 1px solid grey;
+}
+
+p {
+    margin: 10px;
+    font-size: small;
+}
+

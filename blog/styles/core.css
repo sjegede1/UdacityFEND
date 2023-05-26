@@ -1,0 +1,46 @@
+body {
+  grid-template-rows: "header" "1fr" "footer";
+}
+
+header {
+  border: 1px solid grey;
+  display: grid;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  height: 100px;
+  align-items: center;
+  grid-template-columns: 80% 20%;
+  grid-row: "header";
+}
+
+header .blog-name {
+  margin: 5px;
+  display: flex;
+  grid-area: "title";
+  justify-content: center;
+  align-items: center;
+}
+
+header .mobile-menu {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: "menu";
+}
+
+footer {
+  border: 1px solid grey;
+  height: 50px;
+  display: flex;
+  justify-content: right;
+  grid-row: "footer";
+}
+
+.footer-content {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: evenly-spaced;
+}
