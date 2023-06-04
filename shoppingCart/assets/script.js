@@ -121,7 +121,7 @@ const emptyCart = () => {
 */
 let totalPaid = 0;
 const pay = (amount) => {
-  totalPaid += amount
+  totalPaid += amount;
   return totalPaid - cartTotal();
 };
 
@@ -142,7 +142,7 @@ module.exports = {
   removeProductFromCart,
   cartTotal,
   pay,
-  emptyCart,
+  emptyCart
   /* Uncomment the following line if completing the currency converter bonus */
   // currency
 };
